@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey to Mars | Frontend Odyssey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="intro">
+        <div class="stars"></div>
+        <h1 class="intro-title">Journey from Earth to Mars</h1>
+        <div id="takeoff-wrapper">
+            <div class="riding-astro">👨‍🚀</div>
+            <div class="intro-rocket">🚀</div>
+            <div class="takeoff-fire">🔥</div>
+        </div>
+        <p id="scroll-prompt">SCROLL DOWN TO BEGIN</p>
+    </section>
+
+    <div id="timeline-track"></div>
+    
+    <div id="journey-rocket">
+        <div id="rocket-inner">
+            <span id="rocket-emoji">🚀</span>
+        </div>
+    </div>
+
+    <section id="earth">
+        <div class="stars"></div>
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 01</h2>
+            <h1 class="reveal-head">Earth: The Departure</h1>
+            <p class="main-desc">Humanity's transition into a multi-planetary species starts here. Launching a spacecraft requires perfect planetary alignment.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Launch Window</h3><p>Earth and Mars align optimally only once every 26 months.</p></div>
+                <div class="fact-box"><h3>Escape Velocity</h3><p>The rocket must accelerate to 11.2 km/s (25,000 mph) to break free.</p></div>
+            </div>
+        </div>
+        <div class="right-visual idle-spin" id="anim-earth" style="font-size: 14rem;">🌍</div>
+    </section>
+
+    <section id="launch">
+        <div class="stars"></div>
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 02</h2>
+            <h1 class="reveal-head">Atmospheric Ascent</h1>
+            <p class="main-desc">Ignition. Millions of pounds of thrust fight gravity. The spacecraft endures extreme vibrations.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Max-Q</h3><p>Maximum dynamic pressure point where aerodynamic stress is highest.</p></div>
+                <div class="fact-box"><h3>G-Forces</h3><p>Astronauts experience up to 4Gs, making breathing difficult.</p></div>
+            </div>
+        </div>
+        <div class="right-visual" id="anim-flame" style="font-size: 10rem;">🔥</div>
+    </section>
+
+    <section id="tmi">
+        <div class="stars"></div>
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 03</h2>
+            <h1 class="reveal-head">Trans-Mars Injection</h1>
+            <p class="main-desc">After reaching a parking orbit, the spacecraft performs its most critical engine burn to slingshot into deep space.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Hohmann Transfer</h3><p>An elliptical path using the Sun's gravity to coast to Mars.</p></div>
+                <div class="fact-box"><h3>Delta-V</h3><p>A massive burst of energy is required to push out of Earth's orbit.</p></div>
+            </div>
+        </div>
+        <div class="right-visual idle-float" id="anim-sat">🛰️</div>
+    </section>
+
+    <section id="space">
+        <div class="stars" style="opacity: 0.8;"></div>
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 04</h2>
+            <h1 class="reveal-head">The Deep Void</h1>
+            <p class="main-desc">Cruising through absolute silence for 7 months. The crew must survive racing at 24,000 mph through a hostile vacuum.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Microgravity</h3><p>Astronauts perform intensive resistive exercises daily.</p></div>
+                <div class="fact-box"><h3>Life Support</h3><p>Recycles 98% of all water onboard into clean drinking water.</p></div>
+            </div>
+        </div>
+        <div class="right-visual" id="anim-astro" style="font-size: 12rem;">👨‍🚀</div>
+    </section>
+
+    <section id="moi">
+        <div class="stars"></div>
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 05</h2>
+            <h1 class="reveal-head">Orbital Insertion</h1>
+            <p class="main-desc">As the Red Planet grows in the window, the spacecraft hits the brakes to allow Mars' gravity to capture it.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Aerocapture</h3><p>Skimming the upper Martian atmosphere to use friction as a brake.</p></div>
+                <div class="fact-box"><h3>Comms Delay</h3><p>Signals take 20 mins to reach Earth. All maneuvers are automated.</p></div>
+            </div>
+        </div>
+        <div class="right-visual idle-float" id="anim-radar">📡</div>
+    </section>
+
+    <section id="landing">
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 06</h2>
+            <h1 class="reveal-head">7 Minutes of Terror</h1>
+            <p class="main-desc">The Entry, Descent, and Landing sequence. The spacecraft must autonomously decelerate from 12,000 mph to zero.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Plasma Blackout</h3><p>Friction heats the shield to 1,500°C, blocking all communications.</p></div>
+                <div class="fact-box"><h3>The Sky Crane</h3><p>Retro-rockets halt descent, lowering rovers via nylon tethers.</p></div>
+            </div>
+        </div>
+        <div class="right-visual" id="anim-meteor" style="font-size: 12rem;">☄️</div>
+    </section>
+
+    <section id="mars">
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 07</h2>
+            <h1 class="reveal-head">Surface Touchdown</h1>
+            <p class="main-desc">The dust settles. Humanity has successfully arrived. The harsh, barren landscape of the Red Planet stretches out.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>Atmosphere</h3><p>100 times thinner than Earth's and composed of 95% toxic CO2.</p></div>
+                <div class="fact-box"><h3>Toxic Regolith</h3><p>The red dirt contains perchlorates, highly toxic to humans.</p></div>
+            </div>
+        </div>
+        <div class="right-visual idle-spin-reverse" id="anim-mars" style="font-size: 16rem; filter: drop-shadow(0 0 40px #ff4500);">🪐</div>
+    </section>
+
+    <section id="habitat">
+        <div class="content-wrapper">
+            <h2 class="reveal-head">Phase 08</h2>
+            <h1 class="reveal-head">The First Colony</h1>
+            <p class="main-desc">Exploration evolves into habitation. To survive long-term, astronauts deploy habitats and massive solar arrays.</p>
+            <div class="info-panel">
+                <div class="fact-box"><h3>ISRU Tech</h3><p>Extracting frozen water to create breathable oxygen and rocket fuel.</p></div>
+                <div class="fact-box"><h3>Radiation Shielding</h3><p>Habitats must be buried underground to block solar radiation.</p></div>
+            </div>
+        </div>
+        <div class="right-visual idle-float" id="anim-hab">🏕️</div>
+    </section>
+
+    <section id="outro">
+        <h1 class="welcome-text">Welcome To Mars</h1>
+        <div id="landing-platform"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
