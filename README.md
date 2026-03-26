@@ -2,7 +2,7 @@
 
 A high-fidelity, interactive web experience documenting the voyage from Earth to the Red Planet. This project features stunning **GSAP-powered animations**, **ScrollTrigger** effects, and a modern **glassmorphism** UI.
 
-![Project Preview](https://github.com/user-attachments/assets/7c711170-48c8-43fe-a532-68bfd5b2e9be)
+
 
 ## 🌌 Features
 - **Cinematic Intro**: Watch the rocket take off as you land on the page.
