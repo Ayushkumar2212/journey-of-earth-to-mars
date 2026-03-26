@@ -57,8 +57,6 @@ Alternatively, run:
 npx vercel --prod
 ```
 
-## 👨‍🚀 Author
-**Aman7** - [GitHub Profile](https://github.com/aman7)
 
 ---
 *Humanity's journey to Mars starts with a single scroll.*
